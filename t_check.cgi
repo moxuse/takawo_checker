@@ -14,7 +14,7 @@ else:
 
 
 # Yahoo!API config
-appId = 'sGNQXeaxg64SaAT2SWHsinBd1bT2PCVsptOw0c4kNYFdp5CVYagFiREa8chE'
+appId = 'API KEY'
 session = httplib.HTTPConnection('jlp.yahooapis.jp')
 
 if len(query)>0:
