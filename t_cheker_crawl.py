@@ -3,12 +3,12 @@
 
 import os
 import os.path
-from lxml import etree
+#from lxml import etree
 import httplib
 import urllib,json
 
 logFile = open('checked_sabun.log', 'r+')
-d = urllib.urlopen("http://search.twitter.com/search.json?q=%23takawo杯&rpp=100&since_id=108550900326469633&page=7")
+d = urllib.urlopen("http://search.twitter.com/search.json?q=%23takawo杯&rpp=100&since_id=234219153257537536&page=5")
 
 lastlines = logFile.readlines()
 fileLineNum = len(lastlines)
